@@ -57,5 +57,6 @@
       "inputs": ["production", "^production"]
     }
   },
-  "nxCloudAccessToken": "OTFmYTY3YTUtMmU3NS00ODA2LTljMGQtMzIwMzEwNmRkZDE2fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NDJjMjZjOTEtODUyMy00ZDFiLTgwMDktMDBkNDUxNjdkYWU0fHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "https://staging.nx.app/"
 }
