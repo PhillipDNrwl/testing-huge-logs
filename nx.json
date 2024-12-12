@@ -34,12 +34,7 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     {
       "plugin": "@nx/cypress/plugin",
       "options": {
@@ -57,14 +52,8 @@
       "inputs": ["production", "^production"]
     }
   },
-  "nxCloudAccessToken": "NDJjMjZjOTEtODUyMy00ZDFiLTgwMDktMDBkNDUxNjdkYWU0fHJlYWQtd3JpdGU=",
-  "nxCloudUrl": "https://staging.nx.app/",
+  "nxCloudAccessToken": "ZDYwMDU1OTktMDMxOC00YzQ2LTlhM2EtMWI2NGQ4ZDI1MGE0fHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "https://staging.nx.app",
   "useLegacyCache": true,
-  "generators": {
-    "@nx/react": {
-      "library": {
-        "unitTestRunner": "vitest"
-      }
-    }
-  }
+  "generators": { "@nx/react": { "library": { "unitTestRunner": "vitest" } } }
 }
