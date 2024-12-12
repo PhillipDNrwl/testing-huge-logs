@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@grumpy-gorilla/libs/feature-a": ["libs/feature-a/src/index.ts"],
+      "@grumpy-gorilla/libs/feature-a/server": ["libs/feature-a/src/server.ts"],
+      "@grumpy-gorilla/libs/feature-b": ["libs/feature-b/src/index.ts"],
+      "@grumpy-gorilla/libs/feature-b/server": ["libs/feature-b/src/server.ts"],
+      "@grumpy-gorilla/libs/feature-c": ["libs/feature-c/src/index.ts"],
+      "@grumpy-gorilla/libs/feature-c/server": ["libs/feature-c/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
