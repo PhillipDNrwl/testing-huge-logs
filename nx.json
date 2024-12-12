@@ -58,5 +58,13 @@
     }
   },
   "nxCloudAccessToken": "NDJjMjZjOTEtODUyMy00ZDFiLTgwMDktMDBkNDUxNjdkYWU0fHJlYWQtd3JpdGU=",
-  "nxCloudUrl": "https://staging.nx.app/"
+  "nxCloudUrl": "https://staging.nx.app/",
+  "useLegacyCache": true,
+  "generators": {
+    "@nx/react": {
+      "library": {
+        "unitTestRunner": "vitest"
+      }
+    }
+  }
 }
